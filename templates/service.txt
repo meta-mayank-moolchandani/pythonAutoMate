@@ -1,0 +1,8 @@
+
+public class {{0}}Service implements I{{0}}Service{
+	
+	List<{{0}}> getBy{{0}}Id(Set<Id> idSet){
+		return {{0}}ServiceImpl.getInstanceOf().getById(idSet);
+	}
+    
+}

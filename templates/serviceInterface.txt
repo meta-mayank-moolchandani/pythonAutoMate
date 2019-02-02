@@ -1,0 +1,5 @@
+public interface I{{0}}Service {
+
+    List<{{0}}> getById(Set<Id> idSet);
+
+}

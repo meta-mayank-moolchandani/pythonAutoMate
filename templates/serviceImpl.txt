@@ -1,0 +1,14 @@
+public class {{0}}ServiceImpl implements I{{0}}Service{
+	
+	public {{1}}Selector {{2}}SelectorObject = new {{1}}Selector();
+    
+    public static {{0}}ServiceImpl {{2}}ServiceObject= new {{0}}ServiceImpl();
+    
+    public static {{0}}ServiceImpl getInstanceOf(){
+    	return {{2}}ServiceObject;
+    }
+    
+    public List<{{0}}> getById(Set<Id> idSet){
+    	return {{2}}SelectorObject.getById(idSet);
+    }
+}
